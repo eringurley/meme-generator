@@ -8,7 +8,6 @@ function MemeInput({ header, imgURL, footer, handleChange }) {
         <input name="header" value={header} placeholder="header text" onChange={(event) => handleChange(event)}></input>
         <input name="imgURL" value={imgURL} placeholder="imgURL text" onChange={(event) => handleChange(event)}></input>
         <input name="footer" value={footer} placeholder="footer text" onChange={(event) => handleChange(event)}></input>
-        <button>Meme Me</button>
       </form>
     </>
   );
@@ -19,7 +18,6 @@ MemeInput.propTypes = {
   imgURL: PropTypes.string.isRequired,
   footer: PropTypes.string.isRequired,
   handleChange: PropTypes.func.isRequired,
-  handleSubmit: PropTypes.func.isRequired
 };
 
 export default MemeInput;

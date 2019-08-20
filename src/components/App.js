@@ -19,7 +19,7 @@ export default class App extends Component {
     <>
       <h1>Meme-orizer</h1>
       <MemeInput header={header} imgURL={imgURL} footer={footer} handleChange={this.handleChange}/>
-      <MemeDisplay top={header} imgURL={imgURL} footer={footer}/>
+      <MemeDisplay header={header} imgURL={imgURL} footer={footer}/>
     </>
     );
   }
