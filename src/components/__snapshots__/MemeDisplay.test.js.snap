@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemeDisplay component renders MemeDisplay 1`] = `
+<Fragment>
+  <section>
+    <p>
+      hi
+    </p>
+    <img
+      src="image"
+    />
+    <p>
+      footer
+    </p>
+  </section>
+</Fragment>
+`;
